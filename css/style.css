@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: yellowgreen; */
+  /* color: red; */
+}
+
+body {
+ 
+   background: url(/utility/Image/11.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+/* <!-- Header start --> */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+  height: 7vh;
+ 
+}
+.logo {
+  margin-left: 4%;
+  width: 80px;
+  height: 60px;
+}
+.logo i {
+  padding: 10px;
+  color: rgba(58, 9, 9, 0.904);
+  font-size: 2rem;
+}
+.logo i:hover {
+  color: red;
+}
+
+.navbar-links {
+  margin: 0;
+  padding: 0;
+}
+.navbar-links a {
+  text-decoration: none;
+  margin: 20px;
+  padding: 5px;
+
+  color: rgba(58, 9, 9, 0.904);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-links a:hover {
+  color: red;
+}
+
+.icon {
+  margin-right: 4%;
+  width: 80px;
+  height: 60px;
+}
+.icon i {
+  padding: 10px;
+  color: rgba(58, 9, 9, 0.904);
+  font-size: 2rem;
+}
+.icon i:hover {
+  color: red;
+}
+
+/* <!-- Header End --> */
+
+
+/* Slider-Section */
+.search-section {
+  width: 90%;
+  position: absolute;
+  top: 10%;
+  left: 5%;
+}
+
+.slider {
+  display: none;
+}
+
+.slider img {
+  width: 100%;
+  height: 570px;
+  border-radius: 20px;
+}
+.arrow {
+  position: absolute;
+  top: 90%;
+  right: 7%;
+  padding: 10px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgba(255, 127, 80, 0.712);
+  color: rgb(255, 255, 255);
+}
+.prev {
+  right: 12%;
+}
+.next {
+  right: 5%;
+}
+.caption {
+  position: absolute;
+  top: 90%;
+  left: 43%;
+  color: rgb(255, 255, 255);
+  background: rgba(255, 0, 0, 0.335);
+  padding: 5px 10px;
+  font-size: 2rem;
+}
+
+/* Slider-Section */
+.animeCard{
+  display: grid;
+  grid-template-rows: 100px 100px 100px;
+  position: absolute;
+  bottom: 10%;
+}
+.animePhoto img{
+  width: 200px;
+}
